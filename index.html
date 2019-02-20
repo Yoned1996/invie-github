@@ -16,6 +16,18 @@
 
         body{
             border: solid 10px red;
+            }
+        #rd{
+            display: none;
+        }
+
+        @media screen and (max-width:768px){
+            img{
+                display: none;
+            }
+            #rd{
+                display: block;
+            }
         }
     </style>
 </head>
@@ -23,5 +35,6 @@
     <img src="header.jpg" alt="">
     <img src="hero.png " alt="">
     <img src="acustica.png" alt="">
+    <img src="responsive.png" alt="" id="rd">
 </body>
 </html>
